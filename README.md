@@ -30,13 +30,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+- .map returns a new array with transformed elements while .forEach does not. .forEach operates on each element of the array
+
+
 2. What is the difference between a function and a method?
+
+- A method is defined inside of a class and makes use of .this keyword while a function is defined outside of a class.
+
 
 3. What is closure?
 
+- Closure is the ability to access objects within a closed function even if it is out of scope.
+
+
 4. Describe the four rules of the 'this' keyword.
 
+- Global Binding - When .this is used in a global function, it refers to the window object
+- Implicit Binding/Automatic Binding - When .this is used inside an object method, it is bound to the immediate object.
+- Explicit Binding - When .this is bound to an object stated explicitly using call, apply or bind
+- New Binding - This uses the new keyword and .this here is bound to the newly constructed object
+
+
 5. Why do we need super() in an extended class?
+
+- super() is used to call all the methods in a parent class.
+
 
 ## Project Set up
 
